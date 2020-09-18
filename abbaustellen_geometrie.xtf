@@ -10,7 +10,7 @@
     </MODELS>
   </HEADERSECTION>
   <DATASECTION>
-    <SO_AFU_Abbaustellen_20200918.Abbaustellen BID="SO_AFU_Abbaustellen_20200918.Abbaustellen">
+    <SO_AFU_Abbaustellen_20200918.Abbaustellen BID="b1">
       <SO_AFU_Abbaustellen_20200918.Abbaustellen.Geometrie TID="5e5bb99e-2f68-499e-aebe-d01f05b9ea88">
         <Geometrie>
           <SURFACE>
@@ -45,12 +45,6 @@
           </SURFACE>
         </Geometrie>
       </SO_AFU_Abbaustellen_20200918.Abbaustellen.Geometrie>
-      <SO_AFU_Abbaustellen_20200918.Abbaustellen.Abbaustelle TID="5c6be6dd-7111-42fd-9eae-bd46fefa3c93">
-        <Nummer>5432</Nummer>
-        <Name>Hellstätt</Name>
-        <Bemerkungen>Fubar</Bemerkungen>
-        <Geometrie REF="5e5bb99e-2f68-499e-aebe-d01f05b9ea88"/>
-      </SO_AFU_Abbaustellen_20200918.Abbaustellen.Abbaustelle>
     </SO_AFU_Abbaustellen_20200918.Abbaustellen>
   </DATASECTION>
 </TRANSFER>

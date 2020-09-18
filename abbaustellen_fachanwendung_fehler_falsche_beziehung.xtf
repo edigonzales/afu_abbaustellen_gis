@@ -17,6 +17,12 @@
         <Bemerkungen>Fubar</Bemerkungen>
         <Geometrie REF="5e5bb99e-2f68-499e-aebe-d01f05b9ea88"/>
       </SO_AFU_Abbaustellen_20200918.Abbaustellen.Abbaustelle>
+      <SO_AFU_Abbaustellen_20200918.Abbaustellen.Abbaustelle TID="5c6be6dd-7111-42fd-9eae-bd46fefa3c93">
+        <Nummer>1234</Nummer>
+        <Name>Rüdisüli</Name>
+        <Bemerkungen>Keine</Bemerkungen>
+        <Geometrie REF="5e5bb99e-2f68-499e-aebe-d01f05b9ea88"/>
+      </SO_AFU_Abbaustellen_20200918.Abbaustellen.Abbaustelle>
     </SO_AFU_Abbaustellen_20200918.Abbaustellen>
   </DATASECTION>
 </TRANSFER>

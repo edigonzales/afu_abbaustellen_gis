@@ -10,12 +10,18 @@
     </MODELS>
   </HEADERSECTION>
   <DATASECTION>
-    <SO_AFU_Abbaustellen_20200918.Abbaustellen BID="bx">
+    <SO_AFU_Abbaustellen_20200918.Abbaustellen BID="bX">
       <SO_AFU_Abbaustellen_20200918.Abbaustellen.Abbaustelle TID="5c6be6dd-7111-42fd-9eae-bd46fefa3c93">
         <Nummer>5432</Nummer>
         <Name>Hellstätt</Name>
         <Bemerkungen>Fubar</Bemerkungen>
         <Geometrie REF="5e5bb99e-2f68-499e-aebe-d01f05b9ea88"/>
+      </SO_AFU_Abbaustellen_20200918.Abbaustellen.Abbaustelle>
+      <SO_AFU_Abbaustellen_20200918.Abbaustellen.Abbaustelle TID="A271564C-12CF-4539-8FCC-AC1BCACC4D53">
+        <Nummer>1234</Nummer>
+        <Name>Rüdisüli</Name>
+        <Bemerkungen>Keine</Bemerkungen>
+        <Geometrie REF="15A46ED0-AB02-4766-BDB5-65F06F85C45D"/>
       </SO_AFU_Abbaustellen_20200918.Abbaustellen.Abbaustelle>
     </SO_AFU_Abbaustellen_20200918.Abbaustellen>
   </DATASECTION>

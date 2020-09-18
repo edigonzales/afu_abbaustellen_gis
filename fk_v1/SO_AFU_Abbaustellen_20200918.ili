@@ -44,8 +44,8 @@ VERSION "2020-09-18"  =
      * Falls bei beiden (Basis-)Rollen die maximale Kardinalität kleiner gleich 1 ist, wird bei der Ziel-Klasse der zweiten  Rolle eingebettet. (Kap. 3.3.9 (und 3.3.7)).
      */
     ASSOCIATION Abbaustelle_Geometrie =
-      Geometrie (EXTERNAL) -- {1} Geometrie;
-      Abbaustelle -- {1} Abbaustelle;
+      Abbaustelle (EXTERNAL) -- {1} Abbaustelle;
+      Geometrie -- {1} Geometrie;
     END Abbaustelle_Geometrie;
 
   END Abbaustellen;
