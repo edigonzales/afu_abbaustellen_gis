@@ -9876,8 +9876,8 @@
 <Presentation>2120</Presentation>
 </ch.ehi.interlis.associations.AssociationDef>
 <ch.ehi.umleditor.umlpresentation.PresentationAssocClass TID="2119">
-<East>214</East>
-<South>275</South>
+<East>233</East>
+<South>267</South>
 <ClassAngle>0.0</ClassAngle>
 <ClassRadius>0.0</ClassRadius>
 <Association>2120</Association>
@@ -11768,10 +11768,10 @@
 <SuppressOperations>false</SuppressOperations>
 <ShowOperationSignatures>false</ShowOperationSignatures>
 <ShowConstraints>0</ShowConstraints>
-<East>196</East>
-<South>39</South>
-<Width>152</Width>
-<Height>68</Height>
+<East>190</East>
+<South>49</South>
+<Width>229</Width>
+<Height>42</Height>
 <Diagram>2125</Diagram>
 <Documentation>2526</Documentation>
 <Foreground>2527</Foreground>
@@ -15940,10 +15940,10 @@
 <Association>2120</Association>
 <NameVisible>true</NameVisible>
 <MultiplicityVisible>true</MultiplicityVisible>
-<NameAngle>304.0</NameAngle>
-<NameRadius>123.0</NameRadius>
-<MultiplicityAngle>233.0</MultiplicityAngle>
-<MultiplicityRadius>125.0</MultiplicityRadius>
+<NameAngle>308.0</NameAngle>
+<NameRadius>114.0</NameRadius>
+<MultiplicityAngle>252.0</MultiplicityAngle>
+<MultiplicityRadius>108.0</MultiplicityRadius>
 <Documentation>3499</Documentation>
 <Orthogonal>false</Orthogonal>
 <Foreground>3500</Foreground>
@@ -21731,9 +21731,9 @@
 <Association>2120</Association>
 <NameVisible>true</NameVisible>
 <MultiplicityVisible>true</MultiplicityVisible>
-<NameAngle>67.0</NameAngle>
-<NameRadius>417.0</NameRadius>
-<MultiplicityAngle>179.0</MultiplicityAngle>
+<NameAngle>84.0</NameAngle>
+<NameRadius>413.0</NameRadius>
+<MultiplicityAngle>190.0</MultiplicityAngle>
 <MultiplicityRadius>422.0</MultiplicityRadius>
 <Documentation>4724</Documentation>
 <Orthogonal>false</Orthogonal>
