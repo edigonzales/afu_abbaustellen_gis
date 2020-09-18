@@ -13,6 +13,7 @@ VERSION "2020-09-18"  =
   IMPORTS GeometryCHLV95_V1;
 
   TOPIC Abbaustellen =
+    OID AS INTERLIS.UUIDOID;
 
     /** Abbaustelle (aus Fachanwendung ohne Geometrie)
      */
@@ -39,8 +40,8 @@ VERSION "2020-09-18"  =
     /** Verknüpfung zwischen genau einer Abbaustelle und einer Geometrie
      */
     ASSOCIATION Abbaustelle_Geometrie =
-      Abbaustelle -- {1} Abbaustelle;
-      Geometrie -- {1} Geometrie;
+      Abbaustelle -<#> {1} Abbaustelle;
+      Geometrie (EXTERNAL) -- {1} Geometrie;
     END Abbaustelle_Geometrie;
 
   END Abbaustellen;
