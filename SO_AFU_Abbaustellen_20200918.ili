@@ -37,11 +37,15 @@ VERSION "2020-09-18"  =
       Geometrie : MANDATORY GeometryCHLV95_V1.SurfaceWithOverlaps2mm;
     END Geometrie;
 
-    /** Verknüpfung zwischen genau einer Abbaustelle und einer Geometrie
+    /** Verknüpfung zwischen genau einer Abbaustelle und einer Geometrie. 
+     * 
+     * In welcher Tabellen wird der Fremdschlüssel in der Datenbank angelegt? In welcher Klasse wird die Beziehung im XTF eingebettet?
+     * 
+     * Falls bei beiden (Basis-)Rollen die maximale Kardinalität kleiner gleich 1 ist, wird bei der Ziel-Klasse der zweiten  Rolle eingebettet. (Kap. 3.3.9 (und 3.3.7)).
      */
     ASSOCIATION Abbaustelle_Geometrie =
-      Abbaustelle -<#> {1} Abbaustelle;
-      Geometrie (EXTERNAL) -- {1} Geometrie;
+      Abbaustelle (EXTERNAL) -- {1} Abbaustelle;
+      Geometrie -- {1} Geometrie;
     END Abbaustelle_Geometrie;
 
   END Abbaustellen;

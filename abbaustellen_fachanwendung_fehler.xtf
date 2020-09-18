@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRANSFER xmlns="http://www.interlis.ch/INTERLIS2.3">
+  <HEADERSECTION SENDER="ili2pg-4.4.2-7b1d50437cd6970a801b16d177c4e27151414569" VERSION="2.3">
+    <MODELS>
+      <MODEL NAME="CoordSys" VERSION="2015-11-24" URI="http://www.interlis.ch/models"/>
+      <MODEL NAME="Units" VERSION="2012-02-20" URI="http://www.interlis.ch/models"/>
+      <MODEL NAME="GeometryCHLV03_V1" VERSION="2017-12-04" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="GeometryCHLV95_V1" VERSION="2017-12-04" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="SO_AFU_Abbaustellen_20200918" VERSION="2020-09-18" URI="http://afu.so.ch"/>
+    </MODELS>
+  </HEADERSECTION>
+  <DATASECTION>
+    <SO_AFU_Abbaustellen_20200918.Abbaustellen BID="SO_AFU_Abbaustellen_20200918.Abbaustellen">
+      <SO_AFU_Abbaustellen_20200918.Abbaustellen.Abbaustelle TID="6a82eb80-b641-48ce-8976-cbb59f13d363">
+        <Nummer>5432</Nummer>
+        <Name>Gagahüsli</Name>
+        <Bemerkungen>Fubar</Bemerkungen>
+      </SO_AFU_Abbaustellen_20200918.Abbaustellen.Abbaustelle>
+      <SO_AFU_Abbaustellen_20200918.Abbaustellen.Abbaustelle TID="87a5cf87-8f63-4ef6-8855-5e4a6aec7d9b">
+        <Nummer>1234</Nummer>
+        <Name>Hellstätt</Name>
+        <Bemerkungen>Foo bar</Bemerkungen>
+      </SO_AFU_Abbaustellen_20200918.Abbaustellen.Abbaustelle>
+    </SO_AFU_Abbaustellen_20200918.Abbaustellen>
+  </DATASECTION>
+</TRANSFER>
