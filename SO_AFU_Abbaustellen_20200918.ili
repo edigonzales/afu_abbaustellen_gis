@@ -1,0 +1,48 @@
+INTERLIS 2.3;
+
+/** !!------------------------------------------------------------------------------
+ *  !! Version    | wer | Änderung
+ *  !!------------------------------------------------------------------------------
+ *  !! 2020-09-18 | sz  | Ersterfassung
+ *  !!==============================================================================
+ */
+!!@ technicalContact="mailto:agi@bd.so.ch"
+MODEL SO_AFU_Abbaustellen_20200918 (de)
+AT "http://afu.so.ch"
+VERSION "2020-09-18"  =
+  IMPORTS GeometryCHLV95_V1;
+
+  TOPIC Abbaustellen =
+
+    /** Abbaustelle (aus Fachanwendung ohne Geometrie)
+     */
+    CLASS Abbaustelle =
+      /** Nummer / Identifikator
+       */
+      Nummer : MANDATORY TEXT*1024;
+      /** Name
+       */
+      Name : MANDATORY TEXT*1024;
+      /** Bemerkungen und Hinweise
+       */
+      Bemerkungen : MTEXT*1024;
+    END Abbaustelle;
+
+    /** Geometrie zu einer Abbaustelle. Getrennte Erfassung (Fachanwendung - Desktop-GIS)
+     */
+    CLASS Geometrie =
+      /** Räumliche Ausdehnung einer Abbaustelle
+       */
+      Geometrie : MANDATORY GeometryCHLV95_V1.SurfaceWithOverlaps2mm;
+    END Geometrie;
+
+    /** Verknüpfung zwischen genau einer Abbaustelle und einer Geometrie
+     */
+    ASSOCIATION Abbaustelle_Geometrie =
+      Abbaustelle -- {1} Abbaustelle;
+      Geometrie -- {1} Geometrie;
+    END Abbaustelle_Geometrie;
+
+  END Abbaustellen;
+
+END SO_AFU_Abbaustellen_20200918.
