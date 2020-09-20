@@ -10,7 +10,7 @@
     </MODELS>
   </HEADERSECTION>
   <DATASECTION>
-    <SO_AFU_Abbaustellen_20200918.Abbaustellen BID="bx">
+    <SO_AFU_Abbaustellen_20200918.Abbaustellen BID="bX">
       <SO_AFU_Abbaustellen_20200918.Abbaustellen.Abbaustelle TID="5c6be6dd-7111-42fd-9eae-bd46fefa3c93">
         <Nummer>5432</Nummer>
         <Name>Hellstätt</Name>
